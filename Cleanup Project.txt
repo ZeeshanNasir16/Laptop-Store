@@ -1,0 +1,4 @@
+check which one is used then remove the extra dependency
+
+> react-toastify
+> react-toastify-redux
