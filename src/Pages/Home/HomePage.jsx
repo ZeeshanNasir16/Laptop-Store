@@ -22,7 +22,7 @@ const Home = (props) => {
             <Loading />;
          </div>
       );
-   else if (error) return <Redirect to='/404' />;
+   else if (error) return <Redirect to='/' />;
    else {
       const { products } = getProducts;
       return (

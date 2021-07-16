@@ -42,7 +42,7 @@ function ShoppingCart(props) {
             <Loading />;
          </div>
       );
-   else if (err) return <Redirect to='/404' />;
+   else if (err) return <Redirect to='/' />;
    else if (totalItems != null && totalItems !== 0) {
       return (
          <>

@@ -7,7 +7,6 @@ import NavBar from './components/NavBar/NavBar';
 import Footer from './components/Footer/Footer';
 import Home from './Pages/Home/HomePage';
 import Cart from './Pages/Cart/Cart';
-import NotFound from './Pages/404/Error_404';
 import Checkout from './Pages/CheckOut/Checkout';
 import './App.css';
 import { commerce } from './lib/commerce';
@@ -53,7 +52,7 @@ function App() {
                   />
                </Route>
 
-               <Route path='*' component={NotFound} />
+               <Route path='*' component={Home} />
             </Switch>
          </main>
 
