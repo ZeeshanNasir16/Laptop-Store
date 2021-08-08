@@ -1,5 +1,6 @@
 # E-Commerce (Laptop Store)
-An ecommerce application developed using **React JS, Redux, Material-UI** as front-end and **Commerce JS** as backend alongwith **Stripe API** for managing online payment processing.
+A basic ecommerce application developed using **React JS, Redux, Material-UI** as front-end and **Commerce JS** as backend alongwith **Stripe API** is used for managing online payment processing. 
+
 
 ### [Live Site](https://ecommercelaptop.netlify.app/)
 
